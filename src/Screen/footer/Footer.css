@@ -1,0 +1,106 @@
+.Footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(63, 81, 181),
+    rgb(100, 181, 246)
+  );
+  color: #fff;
+  border: none !important;
+  padding: 2rem 0;
+}
+.Footer-container h4 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.Footer-Row {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Intro-Container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Intro-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.Intro-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+.Intro-content a:hover {
+  opacity: 1;
+}
+.Policy-Container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Policy-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Policy-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+.Policy-content a:hover {
+  opacity: 1;
+}
+.Policy-Container p {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
+.Social-Media-Container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Social-Media-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.SocialMedia-link a {
+  color: white;
+  opacity: 0.5;
+}
+.SocialMedia-link a:hover {
+  opacity: 1;
+}
+.Download-Container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Download-button-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Download-Button img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Download-Button img:hover{
+    opacity: 1;
+}

@@ -1,0 +1,135 @@
+.MainTable-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.MainTable-Rows {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 25% 8% 12% 12% 8% 12% 12%;
+  justify-content: center;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.32);
+  border-width: 100%;
+  padding-bottom: 0.5rem;
+}
+.Ranked-Cell p {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left !important;
+  opacity: 1 !important;
+}
+.Name-Cell p {
+  width: 100%;
+  text-align: left !important;
+}
+.MainTable-Row-Cells {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.1rem;
+  cursor: pointer;
+}
+.MainTable-Row-Cells p {
+  width: 100%;
+  font-size: 0.7rem;
+  opacity: 0.5;
+  text-align: right;
+}
+.MainTable-Row-Cells p:hover {
+  opacity: 1;
+}
+
+/* Currency Table Row's CSS Starts here */
+
+.CurrencyTableRows-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Row-Grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 25% 8% 12% 12% 8% 12% 12%;
+  justify-content: center;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.32);
+  padding-top: 0.9rem;
+  padding-bottom: 0.8rem;
+}
+.Ranked-Content p {
+  width: 100%;
+  text-align: left !important;
+}
+.Named-Content p {
+  width: 100%;
+  text-align: left !important;
+}
+.Name-Symbol-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+gap: 0.1rem;
+}
+.Symbol-text{
+  font-size: 0.6rem;
+}
+.Row-Content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 0.3rem;
+}
+.Row-Content p {
+  width: 100%;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.9);
+}
+.Row-Grid img {
+  width: 30px !important;
+  height: 30px !important;
+}
+.CurrencyTableRows-Container.red {
+  animation: decrease 1s;
+}
+.CurrencyTableRows-Container.green {
+  animation: increase 1s;
+}
+@keyframes decrease {
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: rgb(255, 179, 179);
+  }
+
+  100% {
+    background-color: #fff;
+  }
+}
+
+@keyframes increase {
+  0% {
+    background-color: #fff;
+  }
+
+  50% {
+    background-color: rgb(195, 255, 179);
+  }
+
+  100% {
+    background-color: #fff;
+  }
+}
+.Row-Content.Red p{
+  color: red !important;
+}
+.Row-Content.Green p{
+  color: green !important;
+}

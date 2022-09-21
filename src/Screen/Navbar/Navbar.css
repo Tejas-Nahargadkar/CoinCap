@@ -1,0 +1,97 @@
+.Navbar-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Navbar {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav-links {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+.Nav-links a {
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+}
+.Nav-links a:hover {
+  background-color: rgba(240, 240, 240, 0.539);
+}
+.Nav-Logo {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Nav-Logo img {
+  width: 80%;
+  padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+  cursor: pointer;
+}
+.Nav-Logo img:hover {
+  background-color: rgba(240, 240, 240, 0.591);
+}
+.Nav-Buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 2rem;
+}
+.Nav-Input {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Nav-Settings {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Settings-button {
+  width: 50%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.Settings-button svg {
+  width: 1.5em;
+  height: 1em;
+  font-size: 1em;
+}
+.Nav-Wallet {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Wallet-Button {
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10em;
+  color: white;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+  background: rgb(24, 198, 131) !important;
+  cursor: pointer;
+}
+.Wallet-Button:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}

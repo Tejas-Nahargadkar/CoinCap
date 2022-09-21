@@ -1,0 +1,71 @@
+.LandingPage-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Gradient-Container {
+  width: 100%;
+  padding: 1.4rem 0 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246))
+    rgb(255, 255, 255) !important;
+}
+.Gradient-Content-Container {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.Gradient-Content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.Gradient-Content p {
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+.Currency-Table {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: white;
+  top: -8rem;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px !important;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.ShowMore-button-Container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ShowMore-button {
+  width: 50%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10em;
+  color: white;
+  box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+  background: rgb(24, 198, 131) !important;
+  cursor: pointer;
+  position: relative;
+  top: -6rem;
+}
+
+.ShowMore-button:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
